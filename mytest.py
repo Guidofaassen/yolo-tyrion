@@ -1,6 +1,4 @@
-def func(x):
-    return x + 1
+from myFunction import add_one
 
 def test_answer():
-    assert func(3) == 5
-test_answer()
+    assert add_one(3) == 5
