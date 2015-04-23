@@ -7,4 +7,4 @@ def test_answer2():
     assert add_one(4) == 5
 
 def test_answer3():
-    assert add_one(-2) == -2
+    assert add_one(-2) == -1
